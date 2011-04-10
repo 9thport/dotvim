@@ -19,7 +19,7 @@ set ttyfast			" smoother scrolling
 set shm+=I			" No startup message
 set nu				" set numbering in margin
 set hlsearch			" hilight searches
-syntax on
+"syntax on
 
 "mappings
 nnoremap <F5> :GundoToggle<CR>
@@ -32,10 +32,7 @@ filetype indent on
 filetype plugin on
 
 "autocmds
-autocmd FileType html source $HOME/.vimrc.html
-
-"settings for going fullscreen in macvim
-"set fuopt+=maxhorz " grow to maximum horizontal width on entering fullscreen mode
+"autocmd FileType html source $HOME/.vimrc.html
 
 "colorscheme
-colorscheme candycode
+colorscheme molokai
