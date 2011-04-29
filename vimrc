@@ -24,7 +24,8 @@ set hlsearch			" hilight searches
 "mappings
 nnoremap <F5> :GundoToggle<CR>
 map ,u :source ~/.vimrc<CR>	" update by reading this file
-map <F6> :e ~/Desktop/phone_numbers.txt <Enter>
+map <F6> :e ~/Desktop/work_phone_numbers.txt <Enter>
+map <F7> :e ~/Desktop/home_phone_numbers.txt <Enter>
 
 "filetypes
 filetype on
