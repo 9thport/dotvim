@@ -13,8 +13,8 @@ Set your proxy (optional):
 	
 Update the submodules:
 
-	git submodules init
-	git submodules update
+	git submodule init
+	git submodule update
 
 
 Create symbolic links:
