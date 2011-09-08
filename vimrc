@@ -19,7 +19,7 @@ set ttyfast			" smoother scrolling
 set shm+=I			" No startup message
 set nu				" set numbering in margin
 set hlsearch			" hilight searches
-"syntax on
+syntax on
 
 "mappings
 nnoremap <F5> :GundoToggle<CR>
@@ -36,4 +36,5 @@ filetype plugin on
 "autocmd FileType html source $HOME/.vimrc.html
 
 "colorscheme
-colorscheme molokai
+colorscheme solarized
+set background=dark
